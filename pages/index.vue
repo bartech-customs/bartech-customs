@@ -8,7 +8,7 @@
       </h1>
       <p>
         Specialized in the design and development of custom websites. No
-        pre-made templates. Only modern technologies <br />
+        pre-made templates. Only modern technologies. <br />
         Delivers better performance <br />
         Higher Security <br />
         Less expensive<br />
