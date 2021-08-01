@@ -5,19 +5,21 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Website made easy',
-    titleTemplate: "Bartech Customs | %s",
+    title: 'Bartech Customs - Web Development',
+    titleTemplate: "%s | Bartech Customs",
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Website made easy' },
+      { hid: 'description', name: 'description', content: 'Web Development, App Development, SEO, Digital Marketing' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: "https://fonts.googleapis.com/css2?family=Damion&family=Montserrat&family=Quicksand&display=swap"},
+
     ]
   },
 
@@ -26,15 +28,14 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
+  plugins: [ '~/plugins/projects.server.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-  ],
+  buildModules: ['@nuxtjs/tailwindcss'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

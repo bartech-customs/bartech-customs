@@ -6,7 +6,7 @@
 </template>
 
 <script>
-export default { transition: "slide-bottom" };
+export default {};
 </script>
 
 <style  scoped>
